@@ -1,4 +1,9 @@
+.main {
+    margin-top: 10px;
+    width: 250px;
+}
 .productTable {
+    margin-top: 10px;
     display: flex;
     font-weight: bold;
 }

@@ -5,7 +5,7 @@ import styles from "./ProductTable.module.css";
 function ProductTable({ json }) {
     const jsonList = jsonSort(json);
     return (
-        <div>
+        <div className={styles.main}>
             <div className={styles.productTable}>
                 <span className={styles.name}>Name</span>
                 <span className={styles.price}>Price</span>

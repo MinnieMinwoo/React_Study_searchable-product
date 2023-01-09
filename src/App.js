@@ -1,4 +1,5 @@
-import ProductTable from "./components/ProductTable/ProductTable.js";
+import FilterableProductTable from "./components/FilterableProductTable.js";
+import SearchBar from "./components/SearchBar.js";
 
 let json = [
     {
@@ -42,7 +43,8 @@ let json = [
 function App() {
     return (
         <div className="App">
-            <ProductTable json={json} />
+            <SearchBar />
+            <FilterableProductTable json={json} />
         </div>
     );
 }
