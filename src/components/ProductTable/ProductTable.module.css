@@ -1,0 +1,13 @@
+.productTable {
+    display: flex;
+    font-weight: bold;
+}
+
+.name {
+    flex-grow: 0;
+    flex-basis: 40%;
+}
+
+.price {
+    flex-grow: 1;
+}

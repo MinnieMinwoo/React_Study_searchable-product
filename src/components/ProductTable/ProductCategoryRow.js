@@ -3,13 +3,12 @@ import ProductRow from "./ProductRow.js";
 import PropTypes from "prop-types";
 
 function ProductCategoryRow({ data }) {
-    console.log(data);
     return (
         <div>
-            <p className={styles.title}>Sporting Goods</p>
+            <p className={styles.title}>{data[0].category}</p>
             {data.map((product) => (
                 <ProductRow
-                    id={product.name}
+                    key={product.name}
                     name={product.name}
                     price={product.price}
                     stocked={product.stocked}

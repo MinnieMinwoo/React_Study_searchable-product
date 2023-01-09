@@ -17,7 +17,7 @@ function ProductRow({ name, stocked, price }) {
 ProductRow.propTypes = {
     name: PropTypes.string.isRequired,
     stocked: PropTypes.bool.isRequired,
-    price: PropTypes.number.isRequired,
+    price: PropTypes.string.isRequired,
 };
 
 export default ProductRow;
