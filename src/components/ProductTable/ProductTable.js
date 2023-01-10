@@ -2,8 +2,8 @@ import ProductCategoryRow from "./ProductCategoryRow.js";
 import jsonSort from "../../jsonSort.js";
 import styles from "./ProductTable.module.css";
 
-function ProductTable({ json }) {
-    const jsonList = jsonSort(json);
+function ProductTable({ json, searchData }) {
+    const jsonList = jsonSort(json, searchData);
     return (
         <div className={styles.main}>
             <div className={styles.productTable}>
