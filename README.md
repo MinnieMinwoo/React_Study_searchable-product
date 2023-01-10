@@ -2,5 +2,8 @@
 
 Make product table for studying
 
-link:
-https://ko.reactjs.org/docs/thinking-in-react.html
+reference:  
+https://ko.reactjs.org/docs/thinking-in-react.html  
+
+demonstration:  
+https://minnieminwoo.github.io/React_Study_searchable-product/
