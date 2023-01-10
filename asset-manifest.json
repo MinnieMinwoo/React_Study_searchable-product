@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_Study_searchable-product/static/css/main.a783401e.css",
+    "main.js": "/React_Study_searchable-product/static/js/main.2f152c73.js",
+    "index.html": "/React_Study_searchable-product/index.html",
+    "main.a783401e.css.map": "/React_Study_searchable-product/static/css/main.a783401e.css.map",
+    "main.2f152c73.js.map": "/React_Study_searchable-product/static/js/main.2f152c73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a783401e.css",
+    "static/js/main.2f152c73.js"
+  ]
+}
